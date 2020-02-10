@@ -1,0 +1,282 @@
+body{
+    margin-left: 0.5%;
+    margin-right: opx;
+
+    animation: change 15s infinite;
+    animation-delay: 25ms;
+}
+
+@keyframes change {
+    0%{background-color: rgb(145, 20, 134);}
+    10%{background-color: rgb(170, 34, 57);}
+    20%{background-color: rgb(250, 42, 35);}
+    30%{background-color: rgb(238, 86, 15);}
+    40%{background-color: rgb(207, 172, 16);}
+    50%{background-color: rgb(97, 184, 26);}
+    60%{background-color: rgb(31, 182, 169);}
+    70%{background-color: rgb(34, 121, 221);}
+    80%{background-color: rgb(20, 49, 148);}
+    90%{background-color: rgb(90, 39, 170);}
+    100%{background-color: rgb(153, 24, 185);}
+    110%{background-color: rgb(145, 20, 134);}
+}
+
+.header{
+    background-color: greenyellow;
+}
+
+.header p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+    font-family: arial;
+    font-size: xx-large;
+    
+}
+
+.aboutmeheader p{
+    text-align: center;
+    color: black;
+    
+}
+
+.navbar{
+    margin-bottom: 10px;
+    background-color: greenyellow;
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
+.navbar ul{
+    list-style: none;
+    width: auto;
+    align-items: center;
+    padding-right: 13%;
+    height: 800px;
+}
+
+.navbar ul li{
+    text-align: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    font-family: arial;
+    color: black;
+}
+
+.navbar ul li a:active{
+    color: rgb(255, 29, 21);
+}
+
+.profilepicture{
+    border-radius: 50%;
+}
+
+.borderbottom{
+    border-bottom: 2pt gray solid;
+}
+
+.bottomspace{
+    margin-left: 39%;
+    margin-top: 5%;
+    margin-right: 20%;
+    background-color: greenyellow;
+}
+
+.bottomspace p{
+    height: 65px;
+    text-align: center;
+    font-family: arial;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.bottomspace h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: arial;
+    text-decoration: underline 2pt gray solid;
+}
+
+.aboutmeheader{
+    background-color: greenyellow;
+    margin-top: 5%;
+    margin-left: 39%;
+    margin-right: 20%;
+}
+
+.aboutmeheader p{
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: xx-large;
+    font-family: arial;
+    text-decoration: underline 2pt gray solid;
+}
+
+.aboutmeintro{
+    background-color: greenyellow;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 0%;
+}
+
+.aboutmeintro ul li{
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: arial;
+    text-align: justify;
+}
+
+.sociallinks{
+    margin-top: 200px;
+}
+
+.sociallinks .socialheader{
+    background-color: greenyellow;
+    height: auto;
+}
+
+.sociallinks .socialheader p{
+    text-align: center;
+    font-family: arial;
+    font-size: xx-large;
+}
+
+.sociallinks ul{
+    text-align: center;
+}
+
+.sociallinks ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.sociallinks ul li a{
+    
+}
+
+.sociallinks ul li a:hover{
+
+}
+
+.hobbies{
+    float: left;
+    background-color: greenyellow;
+    width: 30%;
+    height: 40%;
+    margin-top: 20px;
+}
+
+.hobbies p{
+    text-align: center;
+    font-family: arial;
+    font-size: x-large;
+    text-decoration: underline 2pt gray;
+}
+
+.hobbies ul li{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.myattributes{
+    float: right;
+    background-color: greenyellow;
+    width: 30%;
+    height: 40%;
+    margin-top: 20px;
+}
+
+.myattributes p{
+    text-align: center;
+    font-family: arial;
+    font-size: x-large;
+    text-decoration: underline 2pt gray;
+}
+
+.myattributes ul li{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.mycv{
+    margin-top: 15%;
+    background-color: greenyellow;
+}
+
+.mycv p{
+    padding-top: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: x-large;
+    text-decoration: underline 2pt gray;
+}
+
+.mycontacts{
+    background-color: greenyellow;
+    margin-left: 30%;
+    margin-right: 12%;
+    margin-top: 5%;
+}
+
+.mycontacts p{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: arial;
+    font-size: x-large;
+}
+
+.mygithub{
+    background-color: greenyellow;
+    margin-left: 30%;
+    margin-right: 12%;
+    margin-top: 5%;
+    height: 100px;
+}
+
+.mygithub p{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: arial;
+    font-size: x-large;
+    text-align: center;
+}
+
+.mygithub a{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: arial;
+    font-size: x-large;
+    text-align: center;
+}
+
+.repos{
+    background-color: greenyellow;
+    margin-left: 30%;
+    margin-right: 12%;
+    margin-top: 5%;
+    height: 350px;
+    text-align: center;
+}
+
+.repos p{
+    padding-top: 25px;
+}
